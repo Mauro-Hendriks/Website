@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <title>Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body, h1, h2, h3, h4, h5, h6 {
+            font-family: "Lato", sans-serif
+        }
+
+        .w3-bar, h1, button {
+            font-family: "Montserrat", sans-serif
+        }
+
+        .fa-anchor, .fa-coffee {
+            font-size: 200px
+        }
+
+        div.mar {
+            margin: 35px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar w3-blue-grey w3-card w3-left-align w3-large">
+            <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+            <a href="aboutMe.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About me</a>
+            <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">projecten</a>
+        </div>
+
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+            <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
+            <a href="projecten.html" class="w3-bar-item w3-button w3-padding-large">projecten</a>
+
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="w3-container w3-teal w3-center" style="padding:128px 16px">
+        <h1 class="w3-margin w3-jumbo">Game Slice</h1>
+    </header>
+
+    <div class="w3-row-padding w3-padding-100 w3-container">
+        <div class="w3-content">
+            <div class="w3-light-grey w3-bordered w3-left">
+                <div class="mar">
+                    <div>
+                        <h5>Tijd: 10 weeken</h5>
+                    </div>
+
+                    <div>
+                        <h5>Groep groote: 6</h5>
+                    </div>
+
+                    <div>
+                        <h5>taal en programma's gebruikt: C# en unity</h5>
+                    </div>
+
+                    <div>
+                        <p><a href="https://github.com/BoazAB/HollowSlice/commits/M_test_branch">Github</a></p>
+                    </div>
+                </div>
+            </div>
+            <divclass ="w3-light-grey w3-bordered w3-middle w3-padding-100">
+                <div>
+                    <h5>
+                        Voor dit schoolproject kregen we een lijst met games waar bij we een deel moesten na maken wij
+                        hadden gekozen voor hollow knight.We kregen een <a href="https://www.youtube.com/watch?v=lR-A7HikCpE&t=69s">filmpje</a> waar uit we 10 seconde na moesten maken dit is wat wij moesten na maken.
+                        Voor dit project heb ik vooral aan movement gewerkt zoals een dash en variable springhoogte
+                    </h5>
+                    <img src="./photos/hollow.jpg" alt="project image" style="width:100%">
+                </div>
+        </div>
+
+
+    </div>
+    </div>
+
+    <script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+    </script>
+
+</body>
+</html>
