@@ -401,8 +401,6 @@ nav.navbar.bootsnav .navbar-toggle {
 /*-------------------------------------
         6.  Skills
 --------------------------------------*/
-.skills {
-}
 
 .skill-content {
     padding: 50px 0 80px;
@@ -565,8 +563,6 @@ nav.navbar.bootsnav .navbar-toggle {
 /*.isotope-overlay*/
 
 /*hm-foot-icon*/
-.hm-foot-icon {}
-
 .hm-foot-icon ul li {
     float: left;
 }
