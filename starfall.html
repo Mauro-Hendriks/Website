@@ -1,107 +1,187 @@
-<!DOCTYPE html>
-<html lang="nl">
+<!doctype html>
+<html class="no-js" lang="nl">
+
 <head>
-    <title>Portfolio</title>
-    <meta charset="UTF-8">
+    <!-- meta data -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="w3.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-        body, h1, h2, h3, h4, h5, h6 {
-            font-family: "Lato", sans-serif
-        }
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-        .w3-bar, h1, button {
-            font-family: "Montserrat", sans-serif
-        }
+    <!--font-family-->
+    <link
+        href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;subset=devanagari,latin-ext"
+        rel="stylesheet">
 
-        .fa-anchor, .fa-coffee {
-            font-size: 200px
-        }
+    <script src="https://kit.fontawesome.com/b6e7e5cc12.js" crossorigin="anonymous"></script>
 
-        div.mar {
-            margin: 35px;
-        }
-    </style>
+    <!-- title of site -->
+    <title>Portfolio</title>
+
+    <!-- For favicon png -->
+    <link rel="shortcut icon" type="image/icon" href="logo/luna-moth.png" />
+
+    <!--font-awesome.min.css-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!--flat icon css-->
+    <link rel="stylesheet" href="css/flaticon.css">
+
+    <!--animate.css-->
+    <link rel="stylesheet" href="css/animate.css">
+
+    <!--owl.carousel.css-->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <!--bootstrap.min.css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- bootsnav -->
+    <link rel="stylesheet" href="css/bootsnav.css">
+
+    <!--style.css-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--responsive.css-->
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+
+    <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
 </head>
+
 <body>
+    <!--[if lte IE 9]>
+		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+	<![endif]-->
 
-    <!-- Navbar -->
-    <div class="w3-top">
-        <div class="w3-bar w3-blue-grey w3-card w3-left-align w3-large">
-            <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-            <a href="aboutMe.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About me</a>
-            <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">projecten</a>
+    <!-- top-area Start -->
+    <header class="top-area">
+        <div class="header-area">
+            <!-- Start Navigation -->
+            <nav class="navbar navbar-default bootsnav navbar-fixed dark no-background">
 
-        </div>
+                <div class="container">
 
-        <!-- Navbar on small screens -->
-        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
-            <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
-            <a href="projecten.html" class="w3-bar-item w3-button w3-padding-large">projecten</a>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
 
-        </div>
-    </div>
+                        <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
 
-    <!-- Header -->
-    <header class="w3-container w3-teal w3-center" style="padding:128px 16px">
-        <h1 class="w3-margin w3-jumbo">starfall</h1>
-    </header>
+                            <li class="active"><a href="index.html">Home</a></li>
+                            <li class=""></li>
+                            <li class="active"><a href="index.html#portfolio">Projecten</a></li>
+                            <li class="active"><a href="index.html#about">About me</a></li>
+                        </ul><!--/.nav -->
+                    </div><!-- /.navbar-collapse -->
+                </div><!--/.container-->
+            </nav><!--/nav-->
+            <!-- End Navigation -->
+        </div><!--/.header-area-->
 
-    <div class="w3-row-padding w3-padding-100 w3-container">
-        <div class="w3-content">
-            <div class="w3-light-grey w3-bordered w3-left">
-                <div class="mar">
-                    <div>
-                        <h5>Tijd: 10 weken</h5>
-                    </div>
+        <div class="clearfix"></div>
 
-                    <div>
-                        <h5>Groep groote: 20</h5>
-                    </div>
+    </header><!-- /.top-area-->
+    <!-- top-area End -->
 
-                    <div>
-                        <h5>taal en programma's gebruikt: c# en unity</h5>
+    <!--welcome-hero start -->
+    <section id="welcome-hero" class="welcome-hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="header-text">
+                        <h2>project starfall</h2>
+                        <p>gemaakt met unity en C#</p>
+                        <a style="color: white;">de github is privé</i></a>
+                    </div><!--/.header-text-->
+                </div><!--/.col-->
+            </div><!-- /.row-->
+        </div><!-- /.container-->
 
-                    </div>
+    </section><!--/.welcome-hero-->
+    <!--welcome-hero end -->
 
-                    <div>
-                        <p><a href="https://github.com/BAStudio/OperationStarfall">Github</a></p>
+    <!--about start -->
+    <section class="about">
+
+        <div class="container">
+            <div class="about-content">
+
+                <div>
+                    <div class="single-about-txt">
+                        <h3>
+                            OperationStarfall is een hybride leeromgeving opgezet door Neon Gamestudio bij een hybride leeromgeving leer je door
+                            te werken aan een game voor de markt in een berijfs omgeving.
+                        </h3>
+                        <div class="single-about-img"><img src="./photos/Main_Level_Render17-1.jpg" alt="project image" style="width: 50%;"></div>
+                        <p>
+                            We werken aan een couch co-op metroidvania met een team van artist en developers.
+                            De eerste periode van 10 weken dat ik er zat ging alles over gameplay.
+                            De periode was opgesplitst in twee sprints. De eerste sprint heb ik gewerkt samen met nog iemand anders om een laser
+                            turret te maken voor in de levels.
+                            In de tweede sprint heb ik ook weer met iemand anders gewerkt aan custom editor script voor unity wat ervoor zorgt dat
+                            je makkelijk en gericht nieuwe objecten in een chain kan neer zetten en dat die dan ook op de juiste plek komt te staan
+                            in een unity diconery en in de scene
+
+                        </p>
+                        <div class="single-about-img"><img src="./photos/drone.png" alt="project image" style="width: 50%;"></div>
                     </div>
                 </div>
             </div>
-            <divclass ="w3-light-grey w3-bordered w3-middle w3-padding-100">
-                <div>
-                    <h5>
-                        OperationStarfall is een hybride leeromgeving opgezet door Neon Gamestudio bij een hybride leeromgeving leer je door tedoen.
-                        We werken aan een couch co-op metroidvania met een team van artist en developers.
-                        De eerste periode van 10 weken dat ik er zat ging alles over gameplay.
-                        De periode was opgesplitst in twee sprints. De eerste sprint heb ik gewerkt samen met nog iemand anders om een laser turret te maken voor in de levels.
-                        In de tweede sprint heb ik ook weer met iemand anders gewerkt aan custom editor script voor unity wat ervoor zorgt dat je makkelijk en gericht nieuwe objecten in een chain kan neer zetten en dat die dan ook op de juiste plek komt te staan in een unity diconery en in de scene
-
-
-                    </h5>
-                </div>
         </div>
-        <img src="./photos/drone.png" alt="project image" style="width:50%">
-        <img src="./photos/Main_Level_Render17-1.jpg" alt="project image" style="width:50%">
+        </div>
+    </section><!--/.about-->
+    <!--about end -->
 
-    </div>
-    </div>
+    <!--footer-copyright start-->
+    <footer id="footer-copyright" class="footer-copyright">
+        <div class="container">
+            <div class="hm-footer-copyright text-center">
 
-    <script>
-// Used to toggle the menu on small screens when clicking on the menu button
-function myFunction() {
-  var x = document.getElementById("navDemo");
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-  } else {
-    x.className = x.className.replace(" w3-show", "");
-  }
-}
-    </script>
+            </div><!--/.text-center-->
+        </div><!--/.container-->
+    </footer><!--/.footer-copyright-->
+    <!--footer-copyright end-->
+    <!-- Include all js compiled plugins (below), or include individual files as needed -->
+
+    <script src="js/jquery.js"></script>
+
+    <!--modernizr.min.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+    <!--bootstrap.min.js-->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- bootsnav js -->
+    <script src="js/bootsnav.js"></script>
+
+    <!-- jquery.sticky.js -->
+    <script src="js/jquery.sticky.js"></script>
+
+    <!-- for progress bar start-->
+    <!-- progressbar js -->
+    <script src="js/progressbar.js"></script>
+
+    <!-- appear js -->
+    <script src="js/jquery.appear.js"></script>
+
+    <!-- for progress bar end -->
+    <!--owl.carousel.js-->
+    <script src="js/owl.carousel.min.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+
+    <!--Custom JS-->
+    <script src="js/custom.js"></script>
 
 </body>
+
 </html>
