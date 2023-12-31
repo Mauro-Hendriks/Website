@@ -365,7 +365,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 .single-about-add-info h3 {
     color: #50535e;
     font-size: 25px;
-    text-transform: capitalize;
+    text-transform: initial;
     text-align: left;
 }
 
