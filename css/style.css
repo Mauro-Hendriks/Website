@@ -383,6 +383,17 @@ nav.navbar.bootsnav .navbar-toggle i {
     display: flex;
     justify-content: center;
 }
+
+
+ .test {
+    margin: auto;
+ }
+.test div{
+    display: inline-block;
+    width: 40%;
+    padding: 5px;
+}
+
 /*.single-about-video */
 .center{
     color: #50535e;
